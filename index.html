@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!-- [if gt IE 8]>      <html class="no-js"> <![endif] -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Network Response - Lowercase Check</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Status of the extension app -->
+    <div id="app-status" class="info-header">
+        Status Placeholder here
+    </div>
+    
+    <!-- Main app of the extension -->
+    <button id="generate-report" class="button">Generate Report</button>
+    <button id="clear-data" class="button">Clear Data</button>
+
+    <!-- elements stored in UL (Main contents / results)
+    <ul id="ul-el" class="log-list"></ul> -->
+
+    <!-- elements stored in a table (Main contents / results) -->
+    <table id="table-el" class="log-table">
+        <thead>
+            <tr>
+                <th>URL</th>
+                <th>Method</th>
+                <th>Status Code</th>
+                <th>Non-Lowercase Headers</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
+</html>
